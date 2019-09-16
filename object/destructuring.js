@@ -6,14 +6,18 @@ var obj = {
 }
 
 const {first, second} = obj;  // works fine
-
 // first = 'Olumide'
 // last = 'Ogundare'
 
-const {first1, second1} = obj;  // won't work
 
+const {first1, second1} = obj;  // won't work
 // first1 = undefined
 // last1 = underfined
 
+
+// the order doesn't matter
+const { second, first } = obj;  // works fine
+// first = 'Olumide'
+// last = 'Ogundare'
 
 
